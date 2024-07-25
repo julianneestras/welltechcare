@@ -1,0 +1,798 @@
+.admin-portal-home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.admin-portal-home-admin-dashboard-body-container {
+  width: 100%;
+  height: 818px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #F2F2F2;
+}
+.admin-portal-home-sidebar {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: 32px;
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-white);
+}
+.admin-portal-home-logo-container {
+  width: 222px;
+  height: 50px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: -10px;
+  justify-content: flex-start;
+}
+.admin-portal-home-image {
+  width: 40px;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-unit);
+}
+.admin-portal-home-container01 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.admin-portal-home-logo-text {
+  color: #1e1e1e;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+  margin-left: var(--dl-space-space-halfunit);
+  letter-spacing: 0.5px;
+}
+.admin-portal-home-text {
+  color: #1e1e1e;
+  font-size: 12px;
+  align-self: flex-start;
+  margin-top: 6px;
+  font-family: Lato;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.admin-portal-home-icon {
+  fill: var(--dl-color-gray-white);
+  width: 18px;
+  align-self: flex-start;
+  margin-top: 9px;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: 9px;
+}
+.admin-portal-home-nav {
+  width: 300px;
+  height: 365px;
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  margin-top: -220px;
+  align-items: flex-start;
+  margin-left: -32px;
+  flex-direction: column;
+  justify-content: center;
+}
+.admin-portal-home-navlink {
+  display: contents;
+}
+.admin-portal-home-container02 {
+  flex: 0 0 auto;
+  width: 300px;
+  cursor: pointer;
+  height: 54px;
+  display: flex;
+  align-self: flex-start;
+  transition: 0.3s;
+  align-items: center;
+  border-color: #CED5E0;
+  border-width: 1px;
+  justify-content: flex-start;
+  text-decoration: none;
+  background-color: #1E5288;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+}
+.admin-portal-home-container02:hover {
+  color: var(--dl-color-gray-white);
+  height: 50px;
+  background-color: #1E5288;
+}
+.admin-portal-home-icon02 {
+  fill: var(--dl-color-gray-white);
+  width: 21px;
+  height: 21px;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.admin-portal-home-text01 {
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 2px;
+  font-family: Lato;
+  font-weight: 700;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.admin-portal-home-container03 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.admin-portal-home-navlink1 {
+  display: contents;
+}
+.admin-portal-home-container04 {
+  flex: 0 0 auto;
+  width: 300PX;
+  cursor: pointer;
+  height: 54px;
+  display: flex;
+  align-self: flex-start;
+  transition: 0.3s;
+  align-items: center;
+  border-color: #CED5E0;
+  border-width: 1px;
+  justify-content: flex-start;
+  text-decoration: none;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+}
+.admin-portal-home-container04:hover {
+  color: var(--dl-color-gray-white);
+  height: 50px;
+  background-color: #F2F2F2;
+}
+.admin-portal-home-icon04 {
+  fill: rgb(124, 124, 124);
+  width: 20px;
+  height: 20px;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.admin-portal-home-text02 {
+  color: rgb(124, 124, 124);
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.admin-portal-home-navlink2 {
+  display: contents;
+}
+.admin-portal-home-container05 {
+  flex: 0 0 auto;
+  width: 300PX;
+  cursor: pointer;
+  height: 54px;
+  display: flex;
+  align-self: flex-start;
+  transition: 0.3s;
+  align-items: center;
+  border-color: #CED5E0;
+  border-width: 1px;
+  justify-content: flex-start;
+  text-decoration: none;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+}
+.admin-portal-home-container05:hover {
+  color: var(--dl-color-gray-white);
+  height: 50px;
+  background-color: #F2F2F2;
+}
+.admin-portal-home-icon06 {
+  fill: rgb(124, 124, 124);
+  width: 20px;
+  height: 20px;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.admin-portal-home-text03 {
+  color: rgb(124, 124, 124);
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.admin-portal-home-navlink3 {
+  display: contents;
+}
+.admin-portal-home-enter-results {
+  width: 300px;
+  cursor: pointer;
+  height: 54px;
+  display: flex;
+  align-self: flex-start;
+  transition: 0.3s;
+  align-items: flex-start;
+  border-color: #CED5E0;
+  border-width: 1px;
+  justify-content: flex-start;
+  text-decoration: none;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+}
+.admin-portal-home-enter-results:hover {
+  width: 300px;
+  height: 50px;
+  justify-content: flex-start;
+  background-color: #F2F2F2;
+}
+.admin-portal-home-icon08 {
+  fill: rgb(124, 124, 124);
+  width: 22px;
+  height: 22px;
+  align-self: center;
+  margin-left: 22px;
+}
+.admin-portal-home-text04 {
+  color: rgb(124, 124, 124);
+  font-size: 16px;
+  align-self: center;
+  font-style: normal;
+  margin-top: 2px;
+  font-family: Lato;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.admin-portal-home-profile {
+  width: 300px;
+  cursor: pointer;
+  height: 54px;
+  display: flex;
+  align-self: flex-start;
+  transition: 0.3s;
+  align-items: flex-start;
+  border-color: #CED5E0;
+  border-width: 1px;
+  justify-content: flex-start;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+}
+.admin-portal-home-profile:hover {
+  width: 300px;
+  height: 50px;
+  justify-content: flex-start;
+  background-color: #F2F2F2;
+}
+.admin-portal-home-icon10 {
+  fill: #6b6b6b;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  margin-left: 20px;
+}
+.admin-portal-home-text07 {
+  color: rgb(124, 124, 124);
+  font-size: 16px;
+  align-self: center;
+  font-style: normal;
+  margin-top: 2px;
+  font-family: Lato;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.admin-portal-home-navlink4 {
+  display: contents;
+}
+.admin-portal-home-logout {
+  width: 300px;
+  cursor: pointer;
+  height: 54px;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.admin-portal-home-logout:hover {
+  height: 50px;
+  background-color: #F2F2F2;
+}
+.admin-portal-home-container06 {
+  flex: 0 0 auto;
+  width: Small;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.admin-portal-home-icon12 {
+  fill: #6b6b6b;
+  width: 22px;
+  height: 24px;
+}
+.admin-portal-home-container07 {
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.admin-portal-home-text10 {
+  color: #7c7c7c;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 400;
+}
+.admin-portal-home-profile1 {
+  width: 300px;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-left: -32px;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  flex-direction: row;
+  justify-content: flex-start;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.admin-portal-home-image1 {
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.admin-portal-home-container08 {
+  display: flex;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.admin-portal-home-text13 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+.admin-portal-home-text14 {
+  color: var(--dl-color-gray-700);
+  font-size: 14px;
+  font-style: normal;
+  font-family: Exo 2;
+  font-weight: 500;
+}
+.admin-portal-home-main-body-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.admin-portal-home-header-container {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  position: relative;
+  box-shadow: 5px 2px 5px 0px #d4d4d4;
+  align-items: center;
+  border-color: #E7E6E6;
+  border-style: solid;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-white);
+  border-bottom-width: 2px;
+}
+.admin-portal-home-patient-portal-txt {
+  color: rgb(12, 35, 75);
+  font-size: 18px;
+  align-self: center;
+  font-style: normal;
+  margin-top: 5px;
+  text-align: left;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+}
+.admin-portal-home-icons-container {
+  top: 7px;
+  right: 5px;
+  width: 145px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.admin-portal-home-image2 {
+  width: 24px;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-unit);
+}
+.admin-portal-home-navlink5 {
+  display: contents;
+}
+.admin-portal-home-image3 {
+  width: 24px;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.admin-portal-home-image4 {
+  width: 24px;
+  object-fit: cover;
+}
+.admin-portal-home-container09 {
+  width: 100%;
+  height: 673px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.admin-portal-home-container10 {
+  flex: 0 0 auto;
+  width: 1042px;
+  height: 730px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.admin-portal-home-text15 {
+  color: #0C234B;
+  font-size: 22px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-threeunits);
+  font-family: Exo 2;
+  font-weight: 700;
+  margin-left: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.admin-portal-home-container11 {
+  flex: 0 0 auto;
+  width: 1000px;
+  height: 130px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.admin-portal-home-container12 {
+  width: 309px;
+  height: 130px;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: center;
+  margin-left: var(--dl-space-space-threeunits);
+  border-radius: 20px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-white);
+}
+.admin-portal-home-icon14 {
+  fill: #0C234B;
+  width: 28px;
+  height: 28px;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.admin-portal-home-container13 {
+  width: 238px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.admin-portal-home-container14 {
+  flex: 0 0 auto;
+  width: 218px;
+  height: 39px;
+  display: flex;
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.admin-portal-home-patient-name-txt {
+  color: rgb(12, 35, 75);
+  font-size: 18px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: left;
+  font-family: Exo 2;
+  font-weight: 600;
+}
+.admin-portal-home-text16 {
+  color: var(--dl-color-gray-700);
+  font-size: 13px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.admin-portal-home-navlink6 {
+  color: rgb(20, 169, 255);
+  font-size: 13px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: 5px;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.admin-portal-home-navlink6:hover {
+  color: #81D3EB;
+}
+.admin-portal-home-container15 {
+  width: 237px;
+  height: 130px;
+  display: flex;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 20px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #0C234B;
+}
+.admin-portal-home-icon16 {
+  fill: var(--dl-color-gray-white);
+  width: 28px;
+  height: 28px;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
+  margin-left: var(--dl-space-space-halfunit);
+}
+.admin-portal-home-container16 {
+  width: 132px;
+  height: auto;
+  display: flex;
+  align-self: center;
+  margin-left: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.admin-portal-home-patient-name-txt1 {
+  color: var(--dl-color-gray-white);
+  font-size: 18px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: left;
+  font-family: Exo 2;
+  font-weight: 600;
+}
+.admin-portal-home-text19 {
+  color: var(--dl-color-gray-900);
+  font-size: 13px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.admin-portal-home-navlink7 {
+  color: var(--dl-color-gray-white);
+  font-size: 13px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: 5px;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.admin-portal-home-navlink7:hover {
+  color: #81D3EB;
+}
+.admin-portal-home-container17 {
+  width: 187px;
+  height: 130px;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: #1E5288;
+}
+.admin-portal-home-container18 {
+  flex: 0 0 auto;
+  width: 124px;
+  height: auto;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.admin-portal-home-patient-name-txt2 {
+  color: var(--dl-color-gray-white);
+  font-size: 18px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: left;
+  font-family: Exo 2;
+  font-weight: 600;
+}
+.admin-portal-home-text20 {
+  color: var(--dl-color-gray-900);
+  font-size: 13px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.admin-portal-home-text21 {
+  color: var(--dl-color-gray-white);
+  font-size: 13px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: 5px;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.admin-portal-home-text21:hover {
+  color: #81D3EB;
+}
+.admin-portal-home-container19 {
+  width: 187px;
+  height: 130px;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: #378DBD;
+}
+.admin-portal-home-container20 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.admin-portal-home-patient-name-txt3 {
+  color: var(--dl-color-gray-white);
+  font-size: 18px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: left;
+  font-family: Exo 2;
+  font-weight: 600;
+}
+.admin-portal-home-text22 {
+  color: var(--dl-color-gray-900);
+  font-size: 13px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.admin-portal-home-navlink8 {
+  color: var(--dl-color-gray-white);
+  font-size: 13px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: 5px;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.admin-portal-home-navlink8:hover {
+  color: #81D3EB;
+}
+.admin-portal-home-text23 {
+  color: var(--dl-color-gray-500);
+  font-size: 16px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-threeunits);
+  font-family: Exo 2;
+  font-weight: 700;
+  margin-left: var(--dl-space-space-threeunits);
+}
+.admin-portal-home-separator {
+  flex: 0 0 auto;
+  width: 90%;
+  height: 0px;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: flex-start;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-900);
+  border-style: solid;
+  border-width: 2px;
+  margin-right: 0px;
+  flex-direction: row;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.admin-portal-home-container21 {
+  width: 958px;
+  height: 468px;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-threeunits);
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+}
+.admin-portal-home-html-node {
+  width: 100%;
+  height: 100%;
+}
+@media(max-width: 991px) {
+  .admin-portal-home-logout {
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+  }
+  .admin-portal-home-profile1 {
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+  }
+  .admin-portal-home-image1 {
+    margin-left: 0px;
+  }
+}
+@media(max-width: 767px) {
+  .admin-portal-home-icon {
+    display: flex;
+  }
+  .admin-portal-home-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}
+@media(max-width: 479px) {
+  .admin-portal-home-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}

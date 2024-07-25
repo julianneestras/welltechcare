@@ -1,0 +1,1185 @@
+.user-profile-patient-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.user-profile-patient-profile-body-container {
+  width: 100%;
+  height: 1496px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #F2F6FE;
+}
+.user-profile-patient-container01 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user-profile-patient-sidebar {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  padding-top: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-color: #378DBD;
+}
+.user-profile-patient-logo-container {
+  width: 279px;
+  height: 50px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  justify-content: flex-start;
+}
+.user-profile-patient-image {
+  width: 40px;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-unit);
+}
+.user-profile-patient-container02 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.user-profile-patient-logo-text {
+  color: var(--dl-color-gray-white);
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+  margin-left: var(--dl-space-space-halfunit);
+  letter-spacing: 0.5px;
+}
+.user-profile-patient-text {
+  color: var(--dl-color-gray-900);
+  font-size: 12px;
+  align-self: flex-start;
+  margin-top: 6px;
+  font-family: Lato;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.user-profile-patient-icon {
+  fill: var(--dl-color-gray-white);
+  width: 18px;
+  align-self: flex-start;
+  margin-top: 9px;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: 9px;
+}
+.user-profile-patient-nav {
+  width: 300px;
+  height: 435px;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.user-profile-patient-text01 {
+  color: var(--dl-color-gray-900);
+  font-size: 14px;
+  font-style: normal;
+  font-family: Exo 2;
+  font-weight: 800;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  letter-spacing: 1.5px;
+}
+.user-profile-patient-navlink {
+  display: contents;
+}
+.user-profile-patient-home {
+  width: 300px;
+  cursor: pointer;
+  height: 45px;
+  display: flex;
+  align-self: flex-start;
+  transition: 0.3s;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  justify-content: flex-start;
+  text-decoration: none;
+  background-color: #318ac0;
+}
+.user-profile-patient-home:hover {
+  width: 300px;
+  height: 50px;
+  justify-content: flex-start;
+  background-color: #11679f;
+}
+.user-profile-patient-icon02 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+  align-self: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.user-profile-patient-text02 {
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  align-self: center;
+  font-style: normal;
+  margin-top: 2px;
+  font-family: Lato;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.user-profile-patient-navlink1 {
+  display: contents;
+}
+.user-profile-patient-schedule-appointment {
+  flex: 0 0 auto;
+  width: 300px;
+  cursor: pointer;
+  height: 45px;
+  display: flex;
+  transition: 0.3s;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.user-profile-patient-schedule-appointment:hover {
+  height: 50px;
+  background-color: #11679f;
+}
+.user-profile-patient-icon04 {
+  fill: var(--dl-color-gray-white);
+  width: 20px;
+  height: 24px;
+  align-self: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.user-profile-patient-text03 {
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  align-self: center;
+  font-style: normal;
+  margin-top: 2px;
+  font-family: Lato;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.user-profile-patient-navlink2 {
+  display: contents;
+}
+.user-profile-patient-container03 {
+  flex: 0 0 auto;
+  width: 300px;
+  cursor: pointer;
+  height: 45px;
+  display: flex;
+  align-self: flex-start;
+  transition: 0.3s;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.user-profile-patient-container03:hover {
+  height: 50px;
+  background-color: #11679f;
+}
+.user-profile-patient-icon06 {
+  fill: var(--dl-color-gray-white);
+  width: 20px;
+  height: 24px;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.user-profile-patient-text04 {
+  color: var(--dl-color-gray-white);
+  margin-top: 2px;
+  font-family: Lato;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.user-profile-patient-navlink3 {
+  display: contents;
+}
+.user-profile-patient-container04 {
+  flex: 0 0 auto;
+  width: 300PX;
+  cursor: pointer;
+  height: 45px;
+  display: flex;
+  align-self: flex-start;
+  transition: 0.3s;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.user-profile-patient-container04:hover {
+  height: 50px;
+  background-color: #11679f;
+}
+.user-profile-patient-container05 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user-profile-patient-icon08 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+}
+.user-profile-patient-text05 {
+  color: var(--dl-color-gray-white);
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.user-profile-patient-text06 {
+  color: var(--dl-color-gray-900);
+  font-size: 14px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  font-family: Exo 2;
+  font-weight: 800;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  letter-spacing: 1.5px;
+}
+.user-profile-patient-navlink4 {
+  display: contents;
+}
+.user-profile-patient-home1 {
+  width: 300px;
+  cursor: pointer;
+  height: 45px;
+  display: flex;
+  align-self: flex-start;
+  transition: 0.3s;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-decoration: none;
+  background-color: #318ac0;
+}
+.user-profile-patient-home1:hover {
+  width: 300px;
+  height: 50px;
+  justify-content: flex-start;
+  background-color: #11679f;
+}
+.user-profile-patient-image1 {
+  width: 20px;
+  align-self: center;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.user-profile-patient-text09 {
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  align-self: center;
+  font-style: normal;
+  margin-top: 2px;
+  font-family: Lato;
+  font-weight: 700;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.user-profile-patient-navlink5 {
+  display: contents;
+}
+.user-profile-patient-profile {
+  width: 300px;
+  cursor: pointer;
+  height: 45px;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  border-color: var(--dl-color-gray-900);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.user-profile-patient-profile:hover {
+  height: 50px;
+  background-color: #11679f;
+}
+.user-profile-patient-container06 {
+  flex: 0 0 auto;
+  width: Small;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.user-profile-patient-icon10 {
+  fill: var(--dl-color-gray-white);
+  width: 22px;
+  height: 24px;
+}
+.user-profile-patient-container07 {
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user-profile-patient-text12 {
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 400;
+}
+.user-profile-patient-container08 {
+  flex: 0 0 auto;
+  width: 831px;
+  height: 1036px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.user-profile-patient-header-container {
+  flex: 0 0 auto;
+  width: 831px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.user-profile-patient-header-container1 {
+  width: 831px;
+  height: 65px;
+  display: flex;
+  position: relative;
+  box-shadow: 0px 0px 5px 0px #d4d4d4;
+  align-items: center;
+  border-color: #E7E6E6;
+  border-style: solid;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-white);
+  border-bottom-width: 2px;
+}
+.user-profile-patient-patient-portal-txt {
+  color: rgb(12, 35, 75);
+  font-size: 18px;
+  align-self: center;
+  font-style: normal;
+  margin-top: 5px;
+  text-align: left;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+}
+.user-profile-patient-icons-container {
+  top: 7px;
+  right: 5px;
+  width: 145px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.user-profile-patient-icon12 {
+  fill: var(--dl-color-gray-900);
+  width: 24px;
+  cursor: pointer;
+  height: 18px;
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-unit);
+}
+.user-profile-patient-icon12:hover {
+  fill: var(--dl-color-gray-700);
+}
+.user-profile-patient-icon14 {
+  fill: var(--dl-color-gray-900);
+  width: 26px;
+  cursor: pointer;
+  height: 18px;
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-unit);
+}
+.user-profile-patient-icon14:hover {
+  fill: var(--dl-color-gray-700);
+}
+.user-profile-patient-navlink6 {
+  display: contents;
+}
+.user-profile-patient-icon16 {
+  fill: var(--dl-color-gray-900);
+  width: 24px;
+  cursor: pointer;
+  height: 18px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.user-profile-patient-icon16:hover {
+  fill: var(--dl-color-gray-700);
+}
+.user-profile-patient-banner-profile-container {
+  width: 1049px;
+  height: 216px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: linear-gradient(90deg, rgb(30, 123, 174) 1.00%,rgb(55, 141, 189) 100.00%);
+}
+.user-profile-patient-container09 {
+  height: 177px;
+  display: flex;
+  align-items: flex-start;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: dashed;
+  border-width: 0px;
+  flex-direction: column;
+  background-color: #378DBD;
+}
+.user-profile-patient-container10 {
+  flex: 0 0 auto;
+  width: 221px;
+  height: 100px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.user-profile-patient-patient-portal-txt1 {
+  color: var(--dl-color-gray-white);
+  font-size: 24px;
+  align-self: center;
+  font-style: normal;
+  margin-top: 5px;
+  text-align: left;
+  font-weight: 600;
+}
+.user-profile-patient-profile-body-container1 {
+  top: 225px;
+  left: 56px;
+  width: 945px;
+  height: 1226px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: dashed;
+  border-width: 0px;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-white);
+}
+.user-profile-patient-form-body {
+  width: 100%;
+  height: 1250px;
+  position: relative;
+}
+.user-profile-patient-after-form-container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 1209px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.user-profile-patient-upload-image-container {
+  width: 349px;
+  height: 378px;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.user-profile-patient-image2 {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+.user-profile-patient-button {
+  color: var(--dl-color-gray-white);
+  cursor: pointer;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  transition: 0.3s;
+  font-family: Exo 2;
+  font-weight: 400;
+  border-width: 0px;
+  background-color: #378DBD;
+}
+.user-profile-patient-button:hover {
+  background-color: #1872a7;
+}
+.user-profile-patient-txt-fields-container {
+  width: 795px;
+  height: 1032px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.user-profile-patient-text15 {
+  color: var(--dl-color-gray-500);
+  font-size: 14px;
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+.user-profile-patient-container11 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user-profile-patient-container12 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user-profile-patient-container13 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.user-profile-patient-text16 {
+  color: rgb(30, 82, 136);
+  font-size: 14px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  font-family: Exo 2;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.user-profile-patient-textinput {
+  color: var(--dl-color-gray-black);
+  width: 181px;
+  height: 45px;
+  font-size: 14px;
+  font-family: Exo 2;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  background-color: rgba(249, 250, 251, 0.82);
+}
+.user-profile-patient-container14 {
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.user-profile-patient-text17 {
+  color: rgb(30, 82, 136);
+  font-size: 14px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  font-family: Exo 2;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.user-profile-patient-textinput01 {
+  color: var(--dl-color-gray-black);
+  width: 181px;
+  height: 45px;
+  font-size: 14px;
+  font-family: Exo 2;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  background-color: rgba(249, 250, 251, 0.82);
+}
+.user-profile-patient-container15 {
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.user-profile-patient-text18 {
+  color: rgb(30, 82, 136);
+  font-size: 14px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  font-family: Exo 2;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.user-profile-patient-textinput02 {
+  color: var(--dl-color-gray-black);
+  width: 181px;
+  height: 45px;
+  font-size: 14px;
+  font-family: Exo 2;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  background-color: rgba(249, 250, 251, 0.82);
+}
+.user-profile-patient-container16 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user-profile-patient-bdate-container {
+  flex: 0 0 auto;
+  width: 208px;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.user-profile-patient-text19 {
+  color: rgb(30, 82, 136);
+  font-size: 14px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  font-family: Exo 2;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.user-profile-patient-textinput03 {
+  width: 100%;
+  height: 45px;
+  font-size: 14px;
+  font-family: Exo 2;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  background-color: rgba(249, 250, 251, 0.82);
+}
+.user-profile-patient-age-container {
+  flex: 0 0 auto;
+  width: 187px;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.user-profile-patient-text20 {
+  color: rgb(30, 82, 136);
+  font-size: 14px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  font-family: Exo 2;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.user-profile-patient-textinput04 {
+  width: 97%;
+  height: 45px;
+  font-size: 14px;
+  font-family: Exo 2;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  background-color: rgba(249, 250, 251, 0.82);
+}
+.user-profile-patient-blood-type {
+  flex: 0 0 auto;
+  width: 149px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.user-profile-patient-text21 {
+  color: rgb(30, 82, 136);
+  font-size: 14px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  font-family: Exo 2;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.user-profile-patient-textinput05 {
+  width: 100%;
+  height: 45px;
+  font-size: 14px;
+  font-family: Exo 2;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  background-color: rgba(249, 250, 251, 0.82);
+}
+.user-profile-patient-container17 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user-profile-patient-container18 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user-profile-patient-height {
+  width: 150px;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.user-profile-patient-text22 {
+  color: rgb(30, 82, 136);
+  font-size: 14px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  font-family: Exo 2;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.user-profile-patient-textinput06 {
+  width: 97%;
+  height: 45px;
+  font-size: 14px;
+  font-family: Exo 2;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  background-color: rgba(249, 250, 251, 0.82);
+}
+.user-profile-patient-weight {
+  width: 150px;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.user-profile-patient-text23 {
+  color: rgb(30, 82, 136);
+  font-size: 14px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  font-family: Exo 2;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.user-profile-patient-textinput07 {
+  width: 97%;
+  height: 45px;
+  font-size: 14px;
+  font-family: Exo 2;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  background-color: rgba(249, 250, 251, 0.82);
+}
+.user-profile-patient-age-container1 {
+  flex: 0 0 auto;
+  width: 250px;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.user-profile-patient-text24 {
+  color: rgb(30, 82, 136);
+  font-size: 14px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  font-family: Exo 2;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.user-profile-patient-textinput08 {
+  width: 97%;
+  height: 45px;
+  font-size: 14px;
+  font-family: Exo 2;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  background-color: rgba(249, 250, 251, 0.82);
+}
+.user-profile-patient-text25 {
+  color: var(--dl-color-gray-500);
+  font-size: 14px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+.user-profile-patient-container19 {
+  width: 580px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.user-profile-patient-text26 {
+  color: rgb(30, 82, 136);
+  font-size: 14px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  font-family: Exo 2;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.user-profile-patient-textinput09 {
+  width: 100%;
+  height: 45px;
+  font-size: 14px;
+  font-family: Exo 2;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  background-color: rgba(249, 250, 251, 0.82);
+}
+.user-profile-patient-container20 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user-profile-patient-container21 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.user-profile-patient-text27 {
+  color: rgb(30, 82, 136);
+  font-size: 14px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  font-family: Exo 2;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.user-profile-patient-textinput10 {
+  width: 240px;
+  height: 45px;
+  font-size: 14px;
+  font-family: Exo 2;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  background-color: rgba(249, 250, 251, 0.82);
+}
+.user-profile-patient-container22 {
+  width: 324px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.user-profile-patient-text28 {
+  color: rgb(30, 82, 136);
+  font-size: 14px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  font-family: Exo 2;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.user-profile-patient-textinput11 {
+  width: 100%;
+  height: 45px;
+  font-size: 14px;
+  align-self: flex-start;
+  font-family: Exo 2;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  background-color: rgba(249, 250, 251, 0.82);
+}
+.user-profile-patient-text29 {
+  color: var(--dl-color-gray-500);
+  font-size: 14px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+.user-profile-patient-container23 {
+  width: 584px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.user-profile-patient-text30 {
+  color: rgb(30, 82, 136);
+  font-size: 14px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  font-family: Exo 2;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.user-profile-patient-textinput12 {
+  color: var(--dl-color-gray-black);
+  width: 100%;
+  height: 45px;
+  font-size: 14px;
+  font-family: Exo 2;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  background-color: rgba(249, 250, 251, 0.82);
+}
+.user-profile-patient-container24 {
+  width: 584px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.user-profile-patient-text31 {
+  color: rgb(30, 82, 136);
+  font-size: 14px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  font-family: Exo 2;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.user-profile-patient-textinput13 {
+  width: 100%;
+  height: 45px;
+  font-size: 14px;
+  font-family: Exo 2;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  background-color: rgba(249, 250, 251, 0.82);
+}
+.user-profile-patient-container25 {
+  width: 584px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.user-profile-patient-text32 {
+  color: rgb(30, 82, 136);
+  font-size: 14px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  font-family: Exo 2;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.user-profile-patient-textinput14 {
+  width: 100%;
+  height: 45px;
+  font-size: 14px;
+  font-family: Exo 2;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  background-color: rgba(249, 250, 251, 0.82);
+}
+.user-profile-patient-container26 {
+  width: 584px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.user-profile-patient-text33 {
+  color: rgb(30, 82, 136);
+  font-size: 14px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  font-family: Exo 2;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.user-profile-patient-textinput15 {
+  width: 100%;
+  height: 45px;
+  font-size: 14px;
+  font-family: Exo 2;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  background-color: rgba(249, 250, 251, 0.82);
+}
+.user-profile-patient-button1 {
+  color: var(--dl-color-gray-white);
+  width: 86px;
+  cursor: pointer;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
+  transition: 0.3s;
+  font-family: Exo 2;
+  font-weight: 400;
+  border-width: 0px;
+  border-radius: 20px;
+  background-color: #2eb1d6;
+}
+.user-profile-patient-button1:hover {
+  background-color: #0f8caf;
+}
+.user-profile-patient-p-name-header-container {
+  width: 239px;
+  height: 65px;
+  display: flex;
+  box-shadow: 0px 0px 5px 0px #d4d4d4;
+  align-items: center;
+  border-color: #E7E6E6;
+  border-style: solid;
+  border-width: 2px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+  border-top-width: 0px;
+  border-left-width: 2px;
+  border-right-width: 0px;
+}
+.user-profile-patient-profile-header-container {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.user-profile-patient-profile-menu-container {
+  flex: 0 0 auto;
+  width: 181px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user-profile-patient-patient-pic-header {
+  width: 48px;
+  height: 47px;
+  object-fit: cover;
+  border-radius: 100rem;
+}
+.user-profile-patient-profile-name-container {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.user-profile-patient-patient-name-header {
+  font-size: 14px;
+  align-self: flex-start;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+}
+.user-profile-patient-patient-txt-header {
+  color: var(--dl-color-gray-700);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: 3px;
+  text-align: left;
+  font-family: Exo 2;
+  font-weight: 500;
+}
+@media(max-width: 991px) {
+  .user-profile-patient-profile {
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+  }
+}
+@media(max-width: 767px) {
+  .user-profile-patient-icon {
+    display: flex;
+  }
+}
+
+.upload-btn-wrapper {
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  color: var(--dl-color-gray-white);
+  cursor: pointer;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Exo 2;
+  font-weight: 400;
+  border-width: 0px;
+  background-color: #378DBD;
+  padding: 0.5rem 1rem 0.5rem;
+  border-radius: 4px;
+
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+#file-chosen{
+  margin-left: 0.3rem;
+  font-family: sans-serif;
+}

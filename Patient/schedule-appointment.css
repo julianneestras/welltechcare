@@ -1,0 +1,1385 @@
+.schedule-appointment-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.schedule-appointment-schedule-main-container {
+  width: 100%;
+  height: 1642px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #F2F6FE;
+}
+.schedule-appointment-container01 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.schedule-appointment-sidebar {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  padding-top: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-color: #378DBD;
+}
+.schedule-appointment-logo-container {
+  width: 279px;
+  height: 50px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  justify-content: flex-start;
+}
+.schedule-appointment-image {
+  width: 40px;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-unit);
+}
+.schedule-appointment-container02 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schedule-appointment-logo-text {
+  color: var(--dl-color-gray-white);
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+  margin-left: var(--dl-space-space-halfunit);
+  letter-spacing: 0.5px;
+}
+.schedule-appointment-text {
+  color: var(--dl-color-gray-900);
+  font-size: 12px;
+  align-self: flex-start;
+  margin-top: 6px;
+  font-family: Lato;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.schedule-appointment-icon {
+  fill: var(--dl-color-gray-white);
+  width: 18px;
+  align-self: flex-start;
+  margin-top: 9px;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: 9px;
+}
+.schedule-appointment-nav {
+  width: 300px;
+  height: 435px;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.schedule-appointment-text001 {
+  color: var(--dl-color-gray-900);
+  font-size: 14px;
+  font-style: normal;
+  font-family: Exo 2;
+  font-weight: 800;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  letter-spacing: 1.5px;
+}
+.schedule-appointment-navlink {
+  display: contents;
+}
+.schedule-appointment-home {
+  width: 300px;
+  cursor: pointer;
+  height: 45px;
+  display: flex;
+  align-self: flex-start;
+  transition: 0.3s;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  justify-content: flex-start;
+  text-decoration: none;
+  background-color: #318ac0;
+}
+.schedule-appointment-home:hover {
+  width: 300px;
+  height: 50px;
+  justify-content: flex-start;
+  background-color: #11679f;
+}
+.schedule-appointment-icon02 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+  align-self: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.schedule-appointment-text002 {
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  align-self: center;
+  font-style: normal;
+  margin-top: 2px;
+  font-family: Lato;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.schedule-appointment-schedule-appointment {
+  flex: 0 0 auto;
+  width: 300px;
+  cursor: pointer;
+  height: 45px;
+  display: flex;
+  transition: 0.3s;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.schedule-appointment-schedule-appointment:hover {
+  height: 50px;
+  background-color: #11679f;
+}
+.schedule-appointment-icon04 {
+  fill: var(--dl-color-gray-white);
+  width: 20px;
+  height: 24px;
+  align-self: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.schedule-appointment-text003 {
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  align-self: center;
+  font-style: normal;
+  margin-top: 2px;
+  font-family: Lato;
+  font-weight: 700;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.schedule-appointment-navlink1 {
+  display: contents;
+}
+.schedule-appointment-container03 {
+  flex: 0 0 auto;
+  width: 300px;
+  cursor: pointer;
+  height: 45px;
+  display: flex;
+  align-self: flex-start;
+  transition: 0.3s;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.schedule-appointment-container03:hover {
+  height: 50px;
+  background-color: #11679f;
+}
+.schedule-appointment-icon06 {
+  fill: var(--dl-color-gray-white);
+  width: 20px;
+  height: 24px;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.schedule-appointment-text004 {
+  color: var(--dl-color-gray-white);
+  margin-top: 2px;
+  font-family: Lato;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.schedule-appointment-navlink2 {
+  display: contents;
+}
+.schedule-appointment-container04 {
+  flex: 0 0 auto;
+  width: 300PX;
+  cursor: pointer;
+  height: 45px;
+  display: flex;
+  align-self: flex-start;
+  transition: 0.3s;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.schedule-appointment-container04:hover {
+  height: 50px;
+  background-color: #11679f;
+}
+.schedule-appointment-container05 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.schedule-appointment-icon08 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+}
+.schedule-appointment-text005 {
+  color: var(--dl-color-gray-white);
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.schedule-appointment-text006 {
+  color: var(--dl-color-gray-900);
+  font-size: 14px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  font-family: Exo 2;
+  font-weight: 800;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  letter-spacing: 1.5px;
+}
+.schedule-appointment-navlink3 {
+  display: contents;
+}
+.schedule-appointment-home1 {
+  width: 300px;
+  cursor: pointer;
+  height: 45px;
+  display: flex;
+  align-self: flex-start;
+  transition: 0.3s;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-decoration: none;
+  background-color: #318ac0;
+}
+.schedule-appointment-home1:hover {
+  width: 300px;
+  height: 50px;
+  justify-content: flex-start;
+  background-color: #11679f;
+}
+.schedule-appointment-image1 {
+  width: 20px;
+  align-self: center;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.schedule-appointment-text009 {
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  align-self: center;
+  font-style: normal;
+  margin-top: 2px;
+  font-family: Lato;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.schedule-appointment-navlink4 {
+  display: contents;
+}
+.schedule-appointment-profile {
+  width: 300px;
+  cursor: pointer;
+  height: 45px;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  border-color: var(--dl-color-gray-900);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.schedule-appointment-profile:hover {
+  height: 50px;
+  background-color: #11679f;
+}
+.schedule-appointment-container06 {
+  flex: 0 0 auto;
+  width: Small;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schedule-appointment-icon10 {
+  fill: var(--dl-color-gray-white);
+  width: 22px;
+  height: 24px;
+}
+.schedule-appointment-container07 {
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.schedule-appointment-text012 {
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 400;
+}
+.schedule-appointment-header-body-container {
+  flex: 0 0 auto;
+  width: 831px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schedule-appointment-header-container {
+  width: 831px;
+  height: 65px;
+  display: flex;
+  position: relative;
+  box-shadow: 0px 0px 5px 0px #d4d4d4;
+  align-items: center;
+  border-color: #E7E6E6;
+  border-style: solid;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-white);
+  border-bottom-width: 2px;
+}
+.schedule-appointment-patient-portal-txt {
+  color: rgb(12, 35, 75);
+  font-size: 18px;
+  align-self: center;
+  font-style: normal;
+  margin-top: 5px;
+  text-align: left;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+}
+.schedule-appointment-icons-container {
+  top: 7px;
+  right: 5px;
+  width: 145px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.schedule-appointment-icon12 {
+  fill: var(--dl-color-gray-900);
+  width: 24px;
+  cursor: pointer;
+  height: 18px;
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-unit);
+}
+.schedule-appointment-icon12:hover {
+  fill: var(--dl-color-gray-700);
+}
+.schedule-appointment-icon14 {
+  fill: var(--dl-color-gray-900);
+  width: 26px;
+  cursor: pointer;
+  height: 18px;
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-unit);
+}
+.schedule-appointment-icon14:hover {
+  fill: var(--dl-color-gray-700);
+}
+.schedule-appointment-navlink5 {
+  display: contents;
+}
+.schedule-appointment-icon16 {
+  fill: var(--dl-color-gray-900);
+  width: 24px;
+  cursor: pointer;
+  height: 18px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.schedule-appointment-icon16:hover {
+  fill: var(--dl-color-gray-700);
+}
+.schedule-appointment-schedule-form {
+  width: 1049px;
+  height: 931px;
+}
+.schedule-appointment-search-container {
+  width: 959px;
+  height: 306px;
+  display: flex;
+  margin-top: 45px;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-threeunits);
+  flex-direction: column;
+}
+.schedule-appointment-find-doctor-txt {
+  color: rgb(12, 35, 75);
+  font-size: 24px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: 5px;
+  text-align: left;
+  font-weight: 600;
+}
+.schedule-appointment-white-bg-container {
+  width: 100%;
+  height: 214px;
+  display: flex;
+  box-shadow: 0px 5px 10px 0px #d4d4d4;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: flex-start;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.schedule-appointment-doctor-txt-field-container {
+  width: 929px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schedule-appointment-container08 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.schedule-appointment-container09 {
+  flex: 0 0 auto;
+  width: 960px;
+  height: 50px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.schedule-appointment-container10 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.schedule-appointment-textinput {
+  width: 450px;
+  height: 50px;
+  font-size: 14px;
+  font-family: Exo 2;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+}
+.schedule-appointment-textinput1 {
+  width: 500px;
+  height: 50px;
+  font-size: 14px;
+  font-family: Exo 2;
+  margin-left: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+}
+.schedule-appointment-time-and-btn-container {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.schedule-appointment-time-container {
+  flex: 0 0 auto;
+  width: 961px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.schedule-appointment-btn-container {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.schedule-appointment-container11 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.schedule-appointment-text015 {
+  color: rgb(12, 35, 75);
+  font-size: 16px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  font-family: Lato;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.schedule-appointment-select {
+  width: 300px;
+  height: 50px;
+  font-size: 14px;
+  font-style: Exo 2;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  border-radius: 4px;
+}
+.schedule-appointment-container12 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.schedule-appointment-text016 {
+  color: rgb(12, 35, 75);
+  font-size: 16px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  font-family: Lato;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-unit);
+}
+.schedule-appointment-select1 {
+  width: 300px;
+  height: 50px;
+  font-size: 14px;
+  font-style: Exo 2;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  border-radius: 4px;
+}
+.schedule-appointment-clear-btn {
+  width: 135px;
+  cursor: pointer;
+  height: 50px;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  margin-top: 40px;
+  text-align: center;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-unit);
+  border-width: 0px;
+  background-color: #F2F2F2;
+}
+.schedule-appointment-text019 {
+  color: #504e4e;
+  font-family: Exo 2;
+}
+.schedule-appointment-search-btn {
+  color: var(--dl-color-gray-white);
+  width: 135px;
+  cursor: pointer;
+  height: 50px;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  margin-top: 40px;
+  text-align: center;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-unit);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  background-color: #1E5288;
+}
+.schedule-appointment-text022 {
+  font-family: Exo 2;
+}
+.schedule-appointment-doctor-list-container {
+  width: 959px;
+  height: 570px;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-threeunits);
+  flex-direction: column;
+}
+.schedule-appointment-doctor-list-txt {
+  color: rgb(12, 35, 75);
+  font-size: 18px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: 5px;
+  text-align: left;
+  font-weight: 600;
+}
+.schedule-appointment-doctor-list-container2 {
+  width: auto;
+  height: 672px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.schedule-appointment-doctor-list-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 539px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.schedule-appointment-doc1 {
+  width: 298px;
+  height: 522px;
+  display: flex;
+  box-shadow: 0px 5px 10px 0px #d4d4d4;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.schedule-appointment-patient-pic-header {
+  width: 110px;
+  height: 110px;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  object-fit: cover;
+  border-radius: 100rem;
+}
+.schedule-appointment-patient-name-txt {
+  color: rgb(12, 35, 75);
+  font-size: 16px;
+  align-self: center;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: left;
+  font-family: Lato;
+  font-weight: 900;
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.schedule-appointment-separator {
+  width: 78%;
+  height: 2px;
+  align-self: center;
+  background-color: #F2F2F2;
+}
+.schedule-appointment-container13 {
+  width: 233px;
+  display: flex;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+.schedule-appointment-text025 {
+  color: var(--dl-color-gray-700);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.schedule-appointment-text028 {
+  color: rgb(30, 82, 136);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: left;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.schedule-appointment-container14 {
+  width: 233px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+.schedule-appointment-text032 {
+  color: var(--dl-color-gray-700);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.schedule-appointment-text035 {
+  color: rgb(30, 82, 136);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: left;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.schedule-appointment-doc1btn {
+  color: var(--dl-color-gray-white);
+  width: 78%;
+  cursor: pointer;
+  height: 45px;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  margin-top: var(--dl-space-space-threeunits);
+  text-align: center;
+  transition: 0.3s;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-unit);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-twounits);
+  text-decoration: none;
+  background-color: #E5ECF3;
+}
+.schedule-appointment-doc1btn:hover {
+  background-color: #D9E4ED;
+}
+.schedule-appointment-text039 {
+  color: #1E5288;
+  font-size: 12px;
+  font-style: normal;
+  font-family: Exo 2;
+  font-weight: 700;
+}
+.schedule-appointment-doc2 {
+  width: 298px;
+  height: 522px;
+  display: flex;
+  box-shadow: 0px 5px 10px 0px #d4d4d4;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-twounits);
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.schedule-appointment-patient-pic-header1 {
+  width: 110px;
+  height: 110px;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  object-fit: cover;
+  border-radius: 100rem;
+}
+.schedule-appointment-patient-name-txt1 {
+  color: rgb(12, 35, 75);
+  font-size: 16px;
+  align-self: center;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: left;
+  font-family: Lato;
+  font-weight: 900;
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.schedule-appointment-separator1 {
+  width: 78%;
+  height: 2px;
+  align-self: center;
+  background-color: #F2F2F2;
+}
+.schedule-appointment-container15 {
+  width: 233px;
+  display: flex;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+.schedule-appointment-text042 {
+  color: var(--dl-color-gray-700);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.schedule-appointment-text045 {
+  color: rgb(30, 82, 136);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: left;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.schedule-appointment-container16 {
+  width: 233px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+.schedule-appointment-text049 {
+  color: var(--dl-color-gray-700);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.schedule-appointment-text052 {
+  color: rgb(30, 82, 136);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: left;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.schedule-appointment-doc2btn {
+  color: var(--dl-color-gray-white);
+  width: 78%;
+  cursor: pointer;
+  height: 45px;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  margin-top: var(--dl-space-space-threeunits);
+  text-align: center;
+  transition: 0.3s;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-unit);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-twounits);
+  background-color: #E5ECF3;
+}
+.schedule-appointment-doc2btn:hover {
+  background-color: #D9E4ED;
+}
+.schedule-appointment-text056 {
+  color: #1E5288;
+  font-size: 12px;
+  font-style: normal;
+  font-family: Exo 2;
+  font-weight: 700;
+}
+.schedule-appointment-doc3 {
+  width: 298px;
+  height: 522px;
+  display: flex;
+  box-shadow: 0px 5px 10px 0px #d4d4d4;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-twounits);
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.schedule-appointment-patient-pic-header2 {
+  width: 110px;
+  height: 110px;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  object-fit: cover;
+  border-radius: 100rem;
+}
+.schedule-appointment-patient-name-txt2 {
+  color: rgb(12, 35, 75);
+  font-size: 16px;
+  align-self: center;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: left;
+  font-family: Lato;
+  font-weight: 900;
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.schedule-appointment-separator2 {
+  width: 78%;
+  height: 2px;
+  align-self: center;
+  background-color: #F2F2F2;
+}
+.schedule-appointment-container17 {
+  width: 233px;
+  display: flex;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+.schedule-appointment-text059 {
+  color: var(--dl-color-gray-700);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.schedule-appointment-text062 {
+  color: rgb(30, 82, 136);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: left;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.schedule-appointment-container18 {
+  width: 233px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+.schedule-appointment-text066 {
+  color: var(--dl-color-gray-700);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.schedule-appointment-text069 {
+  color: rgb(30, 82, 136);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: left;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.schedule-appointment-doc3btn {
+  color: var(--dl-color-gray-white);
+  width: 78%;
+  cursor: pointer;
+  height: 45px;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  margin-top: var(--dl-space-space-threeunits);
+  text-align: center;
+  transition: 0.3s;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-unit);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-twounits);
+  background-color: #E5ECF3;
+}
+.schedule-appointment-doc3btn:hover {
+  background-color: #D9E4ED;
+}
+.schedule-appointment-text073 {
+  color: #1E5288;
+  font-size: 12px;
+  font-style: normal;
+  font-family: Exo 2;
+  font-weight: 700;
+}
+.schedule-appointment-doctor-list-container21 {
+  width: 959px;
+  height: 570px;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-threeunits);
+  flex-direction: column;
+}
+.schedule-appointment-doctor-list-container2-2 {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.schedule-appointment-doctor-list-container3-2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 539px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.schedule-appointment-doc11 {
+  width: 298px;
+  height: 522px;
+  display: flex;
+  box-shadow: 0px 5px 10px 0px #d4d4d4;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.schedule-appointment-patient-pic-header3 {
+  width: 110px;
+  height: 110px;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  object-fit: cover;
+  border-radius: 100rem;
+}
+.schedule-appointment-patient-name-txt3 {
+  color: rgb(12, 35, 75);
+  font-size: 16px;
+  align-self: center;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: left;
+  font-family: Lato;
+  font-weight: 900;
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.schedule-appointment-separator3 {
+  width: 78%;
+  height: 2px;
+  align-self: center;
+  background-color: #F2F2F2;
+}
+.schedule-appointment-container19 {
+  width: 233px;
+  display: flex;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+.schedule-appointment-text076 {
+  color: var(--dl-color-gray-700);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.schedule-appointment-text079 {
+  color: rgb(30, 82, 136);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: left;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.schedule-appointment-container20 {
+  width: 233px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+.schedule-appointment-text083 {
+  color: var(--dl-color-gray-700);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.schedule-appointment-text086 {
+  color: rgb(30, 82, 136);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: left;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.schedule-appointment-doc4btn {
+  color: var(--dl-color-gray-white);
+  width: 80%;
+  cursor: pointer;
+  height: 45px;
+  font-size: 14px;
+/*  align-self: left;*/
+  font-style: normal;
+  margin-top: var(--dl-space-space-threeunits);
+  text-align: center;
+  transition: 0.3s;
+  font-weight: 400;
+/*  margin-left: var(--dl-space-space-unit);*/
+  border-width: 0px;
+/*  margin-right: var(--dl-space-space-oneandhalfunits);*/
+  margin-bottom: var(--dl-space-space-twounits);
+  background-color: #E5ECF3;
+}
+.schedule-appointment-doc4btn:hover {
+  background-color: #D9E4ED;
+}
+.schedule-appointment-text090 {
+  color: #1E5288;
+  font-size: 12px;
+  font-style: normal;
+  font-family: Exo 2;
+  font-weight: 700;
+}
+.schedule-appointment-doc21 {
+  width: 298px;
+  height: 522px;
+  display: flex;
+  box-shadow: 0px 5px 10px 0px #d4d4d4;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-twounits);
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.schedule-appointment-patient-pic-header4 {
+  width: 110px;
+  height: 110px;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  object-fit: cover;
+  border-radius: 100rem;
+}
+.schedule-appointment-patient-name-txt4 {
+  color: rgb(12, 35, 75);
+  font-size: 16px;
+  align-self: center;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: left;
+  font-family: Lato;
+  font-weight: 900;
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.schedule-appointment-separator4 {
+  width: 78%;
+  height: 2px;
+  align-self: center;
+  background-color: #F2F2F2;
+}
+.schedule-appointment-container21 {
+  width: 233px;
+  display: flex;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+.schedule-appointment-text093 {
+  color: var(--dl-color-gray-700);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.schedule-appointment-text096 {
+  color: rgb(30, 82, 136);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: left;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.schedule-appointment-container22 {
+  width: 233px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+.schedule-appointment-text100 {
+  color: var(--dl-color-gray-700);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.schedule-appointment-text103 {
+  color: rgb(30, 82, 136);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: left;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.schedule-appointment-doc5btn {
+  color: var(--dl-color-gray-white);
+  width: 78%;
+  cursor: pointer;
+  height: 45px;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  margin-top: var(--dl-space-space-threeunits);
+  text-align: center;
+  transition: 0.3s;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-unit);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-twounits);
+  background-color: #E5ECF3;
+}
+.schedule-appointment-doc5btn:hover {
+  background-color: #D9E4ED;
+}
+.schedule-appointment-text107 {
+  color: #1E5288;
+  font-size: 12px;
+  font-style: normal;
+  font-family: Exo 2;
+  font-weight: 700;
+}
+.schedule-appointment-p-name-header-container {
+  width: 239px;
+  height: 65px;
+  display: flex;
+  box-shadow: 0px 0px 5px 0px #d4d4d4;
+  align-items: center;
+  border-color: #E7E6E6;
+  border-style: solid;
+  border-width: 2px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+  border-top-width: 0px;
+  border-left-width: 2px;
+  border-right-width: 0px;
+}
+.schedule-appointment-profile-header-container {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.schedule-appointment-profile-menu-container {
+  flex: 0 0 auto;
+  width: 181px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.schedule-appointment-patient-pic-header5 {
+  width: 48px;
+  height: 47px;
+  object-fit: cover;
+  border-radius: 100rem;
+}
+.schedule-appointment-profile-name-container {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.schedule-appointment-patient-name-header {
+  font-size: 14px;
+  align-self: flex-start;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+}
+.schedule-appointment-patient-txt-header {
+  color: var(--dl-color-gray-700);
+  font-size: 12px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: 3px;
+  text-align: left;
+  font-family: Exo 2;
+  font-weight: 500;
+}
+@media(max-width: 991px) {
+  .schedule-appointment-profile {
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+  }
+}
+@media(max-width: 767px) {
+  .schedule-appointment-icon {
+    display: flex;
+  }
+}

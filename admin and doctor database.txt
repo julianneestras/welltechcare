@@ -1,0 +1,23 @@
+ADMIN INFO
+
+admin_firstname
+admin_gender
+admin_age
+admin_birthdate
+admin_email
+admin_contactno
+admin_profile
+
+DOCTOR 
+doctor_firstname
+doctor_middleinitial
+doctor_lastname
+doctor_age
+doctor_schedule
+doctor_birthdate
+doctor_profession
+doctor_email
+doctor_contactno
+doctor_username
+doctor_password
+doctor_profile
